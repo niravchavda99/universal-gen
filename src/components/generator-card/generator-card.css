@@ -1,0 +1,29 @@
+.theme-mode-dark {
+  .generator-card {
+    @apply bg-slate-800 border-0;
+  }
+
+  .generator-card-title {
+    @apply text-white;
+  }
+
+  .generator-card-description {
+    @apply text-slate-400;
+  }
+}
+
+.blue-gradient_text {
+  @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
+}
+
+.head-text {
+  @apply text-slate-700 sm:text-5xl text-3xl font-semibold sm:leading-snug;
+}
+
+.generator-card-title {
+  @apply text-center;
+}
+
+.generator-card-description {
+  @apply text-center;
+}

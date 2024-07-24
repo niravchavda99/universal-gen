@@ -1,0 +1,4 @@
+.textarea {
+  @apply mt-2 w-full rounded-lg border border-gray-400 align-top;
+  @apply shadow-sm sm:text-sm p-3 bg-transparent text-black;
+}
